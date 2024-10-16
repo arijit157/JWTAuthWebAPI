@@ -1,0 +1,9 @@
+{
+  "name": "ASP.NET Core",
+  "image": "mcr.microsoft.com/dotnet/sdk:6.0",
+  "settings": {},
+  "extensions": [
+    "ms-dotnettools.csharp"
+  ],
+  "postCreateCommand": "dotnet restore"
+}
